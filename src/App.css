@@ -2,33 +2,39 @@
   display: flex;
 }
 .estimatedMonthlyCost {
-  margin:0px;
+  margin: 0px;
   padding: 0px;
 }
 
 .disabilityTags {
-  margin:0px;
+  margin: 0px;
   padding: 0px;
   color: gray;
 }
 
-.location-information > p, .icon{
-  padding: 0px .5vw;
-  margin:0px;
+.location-information > p,
+.icon {
+  padding: 0px 0.5vw;
+  margin: 0px;
   flex-shrink: 0;
 }
 
 .location-information {
   display: flex;
-  margin:0px;
+  margin: 0px;
   padding: 0px;
+}
+
+.animal-card > img {
+  width: 100%;
 }
 
 .animal-card {
   display: flex;
   flex-direction: column;
   margin: 1vw;
-  width: 20vw;
+  max-width: 8vw;
+  min-width: 200px;
   flex: 0 0 auto;
 }
 
@@ -49,7 +55,7 @@
   width: 55%;
   padding: 3vh 4vw;
 }
-.photo-grid{
+.photo-grid {
   margin: 0 auto;
   display: block;
 }
@@ -59,7 +65,7 @@
 }
 
 .NavBar-text {
-  color: #FF5A5F;
+  color: #ff5a5f;
 }
 
 .NavBar-img {
@@ -69,5 +75,5 @@
 .NavBar {
   display: flex;
   width: 100%;
-  box-shadow: 0px .75vh 7.5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0.75vh 7.5px rgba(0, 0, 0, 0.1);
 }
