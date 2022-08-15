@@ -1,5 +1,7 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import carIcon from "../images/car-icon.svg";
+import { useNavigate, useParams } from "react-router-dom";
 
 export default function Card(props) {
   return (

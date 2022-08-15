@@ -5,6 +5,8 @@ let data = [
     country: "USA",
     disability: "Parapalegic",
     cost: 136,
+    id: 1,
+    name: "Jane Doe",
   },
   {
     img: "dog-2.png",
@@ -12,6 +14,8 @@ let data = [
     country: "USA",
     disability: "Partially Blind",
     cost: 47,
+    id: 2,
+    name: "Jane Doe",
   },
   {
     img: "dog-3.png",
@@ -19,6 +23,8 @@ let data = [
     country: "USA",
     disability: "Urinary",
     cost: 98,
+    id: 3,
+    name: "Jane Doe",
   },
   {
     img: "dog-3.png",
@@ -26,6 +32,8 @@ let data = [
     country: "USA",
     disability: "Urinary",
     cost: 98,
+    id: 4,
+    name: "Jane Doe",
   },
   {
     img: "dog-3.png",
@@ -33,6 +41,8 @@ let data = [
     country: "USA",
     disability: "Urinary",
     cost: 98,
+    id: 5,
+    name: "Jane Doe",
   },
   {
     img: "dog-3.png",
@@ -40,6 +50,8 @@ let data = [
     country: "USA",
     disability: "Urinary",
     cost: 98,
+    id: 6,
+    name: "Jane Doe",
   },
 ];
 
