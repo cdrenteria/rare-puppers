@@ -10,7 +10,7 @@ export default function Details(props) {
   function findDogById() {
     for (let x = 0; x < Data.length; x++) {
       const item = Data[x];
-      if (item.id === id) {
+      if (item.id == id) {
         data = item;
       }
     }
